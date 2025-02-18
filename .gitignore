@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+venv/
+.env/
+*.venv
+
+# Ignore dataset (optional, unless you want to push sample images)
+# dataset/
+# !dataset/README.md  # Keep a README to explain dataset usage
+
+# Ignore saved models
+# models/
+# !models/README.md  # Keep a placeholder if needed
+# *.h5
+# *.pb
+
+# Ignore logs and checkpoints
+logs/
+*.log
+checkpoints/
+*.ckpt
+*.tflite
+
+# Ignore training results
+# results/
+# *.png
+# *.jpg
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore dependency files (optional)
+requirements.txt.lock
